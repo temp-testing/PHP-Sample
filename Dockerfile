@@ -21,4 +21,4 @@ ARG DEV_BUILD
 ENV RUN_CMD=${DEV_BUILD:+dev}
 # if DEV_BUILD is null, set it to 'start' (or leave as is otherwise).
 ENV RUN_CMD=${RUN_CMD:-start}
-CMD ["sh", "-c", "npm run ${RUN_CMD}"]
+CMD ["sh", "-c", "npm run"]
