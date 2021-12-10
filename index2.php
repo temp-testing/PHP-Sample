@@ -8,5 +8,6 @@ class HelloWorld
 		$date->asdsa();
 		$date->AAAAAA();
 		$date->WRONG();
+		$date->TEST();
 	}
 }
