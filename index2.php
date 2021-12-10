@@ -7,5 +7,6 @@ class HelloWorld
 		echo 'Hello, ' . $date->format('j. n. Y');
 		$date->asdsa();
 		$date->AAAAAA();
+		$date->WRONG();
 	}
 }
