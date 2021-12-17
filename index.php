@@ -8,5 +8,6 @@ class HelloWorld
 		$date->TEST();
 		$date->AAAA();
 		$date->BBBB();
+		$date->NEW();
 	}
 }
